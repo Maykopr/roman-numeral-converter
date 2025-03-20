@@ -1,0 +1,11 @@
+{
+	"name": "roman-numeral-converter",
+	"version": "1.0.0",
+	"description": "Roman Numeral Converter",
+	"main": "script.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Mayko Costa",
+	"license": "MIT"
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Raleway:wght@300;500&family=Roboto+Slab:wght@100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<script src="script.js" defer></script>
+		<title>Roman Numeral Converter</title>
+	</head>
+
+	<body>
+		<div class="app">
+			<h1 class="app__title">Roman Numeral Converter</h1>
+			<form class="app__form" onsubmit="return false">
+				<input
+					class="app__input"
+					type="number"
+					id="number"
+					required
+					placeholder="Enter a number less then 4000"
+				/>
+				<button class="app__button" type="button" id="convert-btn">Convert</button>
+			</form>
+			<p class="app__output" id="output"></p>
+		</div>
+	</body>
+</html>
