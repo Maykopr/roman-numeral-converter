@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Metamorphous&display=swap");
 *,
 *::before,
 *::after {
@@ -10,8 +11,7 @@
 :root {
 	/* UNIQUE VARIABLES ==> Some variables unique for this project */
 
-	--font-family1: "Poppins", sans-serif;
-	--font-family2: "Lexend Deca", sans-serif;
+	--font-family1: "Metamorphous", serif;
 
 	/* COLORS  */
 	--light: #fdf8e7;
@@ -95,14 +95,12 @@
 
 	/* FONT CONFIG  */
 	font-family: var(--font-family1);
-	font-weight: 300;
-	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
 }
 
 body {
-	font-family: "Roboto Slab", serif;
 	background-color: var(--secondary);
-	/* background-image: linear-gradient(var(--primary) 50%, var(--primary-lighter) 100%); */
 	height: 100vh;
 	padding-top: var(--space-l);
 }
@@ -147,6 +145,7 @@ body {
 	border: none;
 	border-radius: var(--sp-container-xs);
 	cursor: pointer;
+	font-family: var(--font-family1);
 }
 
 .app__output {
